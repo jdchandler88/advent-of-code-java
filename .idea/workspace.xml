@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec5c1c2f-afb0-41a3-9b3e-9ab9bea4acf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/advent-of-code-java.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aoc/y2019/Day1FuelCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/AdventOfCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Year.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DayOneInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/aoc/y2019/Day1FuelCalculatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aoc/y2019/Day1IntCodeComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/DayTwoInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aoc/y2019/Day2IntCodeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -78,11 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -101,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/aoc/y2019/Day1FuelCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="399">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#475#476#0" expanded="true" />
@@ -116,22 +112,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/Year.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/aoc/y2019/Day2IntCodeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/AdventOfCode.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aoc/y2019/Day1IntCodeComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="314">
+              <caret line="147" column="58" selection-start-line="147" selection-start-column="58" selection-end-line="147" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#3171#3219#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/test/java/aoc/y2019/day1/FuelCalculatorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/aoc/y2019/day1/FuelCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/aoc/y2019/Day1FuelCalculatorTests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/app.json" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/app/AOC.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/AdventOfCode.java" />
@@ -165,13 +169,18 @@
         <option value="$PROJECT_DIR$/src/main/java/app/Year.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/aoc/y2019/Day1FuelCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/aoc/y2019/Day2IntCodeTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/DayTwoInput.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.json" />
+        <option value="$PROJECT_DIR$/src/main/java/aoc/y2019/Day1IntCodeComputer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -211,14 +220,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="y2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advent-of-code-java" type="b2602c69:ProjectViewProjectNode" />
@@ -300,26 +301,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="advent-of-code-java [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--refresh-dependencies" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Day1FuelCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2IntCodeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-java.test" />
       <extension name="coverage">
         <pattern>
@@ -328,13 +310,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aoc.y2019" />
-      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day1FuelCalculatorTests" />
+      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day2IntCodeTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2IntCodeTests.shouldReturnAppropriateValue_Part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-java.test" />
       <extension name="coverage">
         <pattern>
@@ -343,14 +325,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aoc.y2019" />
-      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day1FuelCalculatorTests" />
-      <option name="METHOD_NAME" value="shouldReturnProperMass_part1(int,int)" />
+      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day2IntCodeTests" />
+      <option name="METHOD_NAME" value="shouldReturnAppropriateValue_Part1(int[],int[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-java.test" />
       <extension name="coverage">
         <pattern>
@@ -359,9 +341,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aoc.y2019" />
-      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day1FuelCalculatorTests" />
-      <option name="METHOD_NAME" value="shouldReturnProperMass_part2(int,int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day2IntCodeTests" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:aoc.y2019.Day2IntCodeTests]/[test-template:shouldReturnAppropriateValue_Part1(%5BI, %5BI)]/[test-template-invocation:#1]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-java.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc.y2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aoc.y2019" />
+      <option name="MAIN_CLASS_NAME" value="aoc.y2019.Day2IntCodeTests" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:aoc.y2019.Day2IntCodeTests]/[test-template:shouldReturnAppropriateValue_Part1(%5BI, %5BI)]/[test-template-invocation:#1]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -369,10 +371,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Day1FuelCalculatorTests.shouldReturnProperMass_part2" />
-        <item itemvalue="JUnit.Day1FuelCalculatorTests.shouldReturnProperMass_part1" />
-        <item itemvalue="JUnit.Day1FuelCalculatorTests" />
-        <item itemvalue="Gradle.advent-of-code-java [clean]" />
+        <item itemvalue="JUnit.Day2IntCodeTests" />
+        <item itemvalue="JUnit.[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (3)" />
+        <item itemvalue="JUnit.[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (2)" />
+        <item itemvalue="JUnit.Day2IntCodeTests.shouldReturnAppropriateValue_Part1" />
       </list>
     </recent_temporary>
   </component>
@@ -391,44 +393,50 @@
       <workItem from="1595521739443" duration="319000" />
       <workItem from="1595522077019" duration="8440000" />
       <workItem from="1595639555603" duration="187000" />
-      <workItem from="1595639768495" duration="1496000" />
+      <workItem from="1595639768495" duration="8534000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuelCalculatorTests - 2020.07.23 at 12h 56m 30s.xml">
-      <configuration name="FuelCalculatorTests" configurationId="JUnit" />
+    <history-entry file="Day2IntCodeTests - 2020.07.25 at 11h 10m 26s.xml">
+      <configuration name="Day2IntCodeTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 12h 56m 55s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="[1]_[1,_9,_10,_3,_2,_3,_11,_0,_99,_30,_40,_50],_[3500,_9,_10,_70,_2,_3,_11,_0,_99,_30,_40,_50] - 2020.07.25 at 11h 10m 52s.xml">
+      <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50]" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 12h 57m 19s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="[1]_[1,_9,_10,_3,_2,_3,_11,_0,_99,_30,_40,_50],_[3500,_9,_10,_70,_2,_3,_11,_0,_99,_30,_40,_50]_(1) - 2020.07.25 at 11h 11m 47s.xml">
+      <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 20h 58m 01s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="Day2IntCodeTests_shouldReturnAppropriateValue_Part1 - 2020.07.25 at 11h 11m 48s.xml">
+      <configuration name="Day2IntCodeTests.shouldReturnAppropriateValue_Part1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part1 - 2020.07.24 at 20h 58m 31s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part1" configurationId="JUnit" />
+    <history-entry file="Day2IntCodeTests_shouldReturnAppropriateValue_Part1 - 2020.07.25 at 11h 12m 49s.xml">
+      <configuration name="Day2IntCodeTests.shouldReturnAppropriateValue_Part1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 20h 58m 37s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="Day2IntCodeTests - 2020.07.25 at 11h 13m 12s.xml">
+      <configuration name="Day2IntCodeTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 20h 59m 17s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="[1]_[1,_9,_10,_3,_2,_3,_11,_0,_99,_30,_40,_50],_[3500,_9,_10,_70,_2,_3,_11,_0,_99,_30,_40,_50]_(2) - 2020.07.25 at 11h 13m 40s.xml">
+      <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day1FuelCalculatorTests_shouldReturnProperMass_part2 - 2020.07.24 at 21h 00m 01s.xml">
-      <configuration name="Day1FuelCalculatorTests.shouldReturnProperMass_part2" configurationId="JUnit" />
+    <history-entry file="Day2IntCodeTests - 2020.07.25 at 11h 13m 59s.xml">
+      <configuration name="Day2IntCodeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="[1]_[1,_9,_10,_3,_2,_3,_11,_0,_99,_30,_40,_50],_[3500,_9,_10,_70,_2,_3,_11,_0,_99,_30,_40,_50]_(3) - 2020.07.25 at 11h 14m 56s.xml">
+      <configuration name="[1] [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50], [3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50] (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day2IntCodeTests - 2020.07.25 at 11h 15m 06s.xml">
+      <configuration name="Day2IntCodeTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11499000" />
+    <option name="totallyTimeSpent" value="18537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22026667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -436,18 +444,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" weight="0.32995737" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="CheckStyle" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33260393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19609967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.3261105" />
@@ -483,13 +491,6 @@
             <element signature="e#22589#22590#0" expanded="true" />
             <element signature="e#22627#22628#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -555,24 +556,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.6.2/bada08402ff53506b1446bc8b3caf5a2aec6c7d1/junit-platform-commons-1.6.2-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="685" column="63" lean-forward="true" selection-start-line="685" selection-start-column="63" selection-end-line="685" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DayTwoInput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="526" selection-start-column="526" selection-end-column="526" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/aoc/y2019/Day2IntCodeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aoc/y2019/Day1FuelCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="399">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
             <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aoc/y2019/Day1IntCodeComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="147" column="58" selection-start-line="147" selection-start-column="58" selection-end-line="147" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#3171#3219#1" expanded="true" />
           </folding>
         </state>
       </provider>

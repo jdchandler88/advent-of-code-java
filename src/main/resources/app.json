@@ -17,6 +17,21 @@
               "method": "part2"
             }
           ]
+        },
+        {
+          "day": 2,
+          "parts": [
+            {
+              "part": 1,
+              "class": "aoc.y2019.Day1IntCodeComputer",
+              "method": "part1"
+            },
+            {
+              "part": 2,
+              "class": "aoc.y2019.Day1IntCodeComputer",
+              "method": "part2"
+            }
+          ]
         }
       ]
     }
