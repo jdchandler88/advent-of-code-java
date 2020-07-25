@@ -1,0 +1,26 @@
+{
+  "years": [
+    {
+      "year": "2019",
+      "days": [
+        {
+          "day": 1,
+          "parts": [
+            {
+              "part": 1,
+              "class": "aoc.y2019.Day1FuelCalculator",
+              "method": "part1"
+            },
+            {
+              "part": 2,
+              "class": "aoc.y2019.Day1FuelCalculator",
+              "method": "part2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
